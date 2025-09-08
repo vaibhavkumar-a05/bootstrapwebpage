@@ -1,0 +1,32 @@
+.ray-img {
+  border-radius: 50%;  
+  border: 4px solid transparent;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;  
+}
+
+.ray-img:hover {
+  border-color: red;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); 
+       
+}
+
+
+.awards-img {
+  border: 4px solid transparent;
+  transition: border-color .3s, box-shadow .3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.awards-img:hover {
+  border-color: red;    
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); 
+}
+
+    h1 {
+        font-family: 'Algerian', sans-serif;
+    }
+    .algerian-text {
+        font-family: 'Algerian', serif;
+    }
